@@ -12,7 +12,7 @@ const Card = ({ avatar, name, description, id }) => (
           <p>{description}</p>
         </div>
         <div className="card-action">
-          <a href={`/teacher/${id}`}>Ir a la página del profesor</a>
+          <a href={`/dog/${id}`}>Ir a la página del perro</a>
         </div>
       </div>
     </div>
