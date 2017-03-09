@@ -1,14 +1,14 @@
 import React from 'react'
-import { SearchFilters, CardList } from './components'
-import data from './data'
+import { createStore } from 'redux'
+import searcher from './reducers/searcher'
+import { Searcher } from './containers'
+import { Provider } from 'react-redux'
+let store = createStore(searcher)
 
 const SampleSpa = () => (
-  <div>
-    <SearchFilters />
-    <div className="container">
-      <CardList teachers={data} />
-    </div>
-  </div>
+  <Provider store={store}>
+    <Searcher />
+  </Provider>
 )
 
 export default SampleSpa
