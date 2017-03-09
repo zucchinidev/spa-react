@@ -1,4 +1,4 @@
-const teachers = [{
+const dogs = [{
   avatar: 'https://images.pexels.com/photos/30116/pexels-photo-30116.jpg?h=350&auto=compress&cs=tinysrgb',
   name: 'Carlino',
   description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
@@ -30,4 +30,4 @@ const teachers = [{
   id: '6'
 }]
 
-export default teachers
+export default dogs
