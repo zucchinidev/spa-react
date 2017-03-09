@@ -1,8 +1,14 @@
 import React from 'react'
-import { SearchFilters } from './components'
+import { SearchFilters, CardList } from './components'
+import data from './data'
 
 const SampleSpa = () => (
-  <SearchFilters />
+  <div>
+    <SearchFilters />
+    <div className="container">
+      <CardList teachers={data} />
+    </div>
+  </div>
 )
 
 export default SampleSpa

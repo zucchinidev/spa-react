@@ -1,31 +1,31 @@
 const teachers = [{
-  avatar: 'http://escuela.it/wp-content/uploads/2015/11/Daniel1-200x200.jpg',
-  name: 'Daniel de la Cruz',
+  avatar: 'https://images.pexels.com/photos/30116/pexels-photo-30116.jpg?h=350&auto=compress&cs=tinysrgb',
+  name: 'Carlino',
   description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   id: '1'
 }, {
-  avatar: 'http://escuela.it/wp-content/uploads/2016/07/Migue-Angel-Duran-200x200.jpg',
-  name: 'Miguel Ángel Durán',
+  avatar: 'https://images.pexels.com/photos/33102/bulldog-puppy-dog-pet.jpg?h=350&auto=compress&cs=tinysrgb',
+  name: 'Buldog francés',
   description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   id: '2'
 }, {
-  avatar: 'http://escuela.it/wp-content/uploads/2015/11/david_garcia1.jpg',
-  name: 'David García',
+  avatar: 'https://images.pexels.com/photos/164186/pexels-photo-164186.jpeg?h=350&auto=compress&cs=tinysrgb',
+  name: 'Corgi',
   description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   id: '3'
 }, {
-  avatar: 'http://escuela.it/wp-content/uploads/2013/04/joan-200x200-1.jpg',
-  name: 'Joan Leon',
+  avatar: 'https://images.pexels.com/photos/69433/pexels-photo-69433.jpeg?h=350&auto=compress&cs=tinysrgb',
+  name: 'Husky',
   description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   id: '4'
 }, {
-  avatar: 'http://escuela.it/wp-content/uploads/2016/07/Kiko-Ruiz-200x200.jpg',
-  name: 'Kiko Ruiz Lloret',
+  avatar: 'https://images.pexels.com/photos/616/animal-dog-pet-bulldog.jpg?h=350&auto=compress&cs=tinysrgb',
+  name: 'Boxer',
   description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   id: '5'
 }, {
-  avatar: 'http://beta.escuelait.com/assets/images/gorka-90.jpg',
-  name: 'Gorka Laucirica',
+  avatar: 'https://images.pexels.com/photos/4107/snow-nature-forest-winter.jpeg?h=350&auto=compress&cs=tinysrgb',
+  name: 'Perro Salvaje africano',
   description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   id: '6'
 }]
