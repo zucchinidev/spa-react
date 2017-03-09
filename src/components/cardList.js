@@ -1,14 +1,14 @@
 import React, { PropTypes } from 'react'
 import Card from './card'
 
-const CardList = ({ teachers }) => (
+const CardList = ({ dogs }) => (
   <div className="section">
-    {teachers.map(teacher => <Card {...teacher} key={teacher.id} />)}
+    {dogs.map(dog => <Card {...dog} key={dog.id} />)}
   </div>
 )
 
 CardList.propTypes = {
-  teachers: PropTypes.array
+  dogs: PropTypes.array
 }
 
 export default CardList
