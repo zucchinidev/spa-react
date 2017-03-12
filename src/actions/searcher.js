@@ -1,10 +1,16 @@
 import * as types from './actionTypes'
 
-export const filterDogs = (filter) => {
+/**
+ * Execute action when we need filter dogs
+ * @param {{}} filterData
+ * @param {string} filterData.text
+ * @returns { { type, payload: {filterData} } }
+ */
+export const filterDogs = (filterData) => {
   return {
     type: types.FILTER_DOG,
     payload: {
-      ...filter
+      ...filterData
     }
   }
 }
