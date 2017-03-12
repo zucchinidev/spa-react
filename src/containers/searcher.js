@@ -3,14 +3,14 @@ import { SearchFilters, CardList } from '../components'
 import { connect } from 'react-redux'
 import { filterDogs } from '../actions/searcher'
 
-
 class Searcher extends Component {
   render () {
+    const { dogs, onFilter } = this.props
     return (
       <div>
-        <SearchFilters onFilter={this.props.onFilter} />
+        <SearchFilters onFilter={onFilter} />
         <div className="container">
-          <CardList dogs={this.props.dogs} />
+          <CardList dogs={dogs} />
         </div>
       </div>
     )
@@ -27,12 +27,18 @@ Searcher.propTypes = {
   onFilter: PropTypes.func
 }
 
-const mapStateToProps = (state) => state
+const mapStateToProps = (state) => {
+  return {
+    dogs: state.searcher.dogs
+  }
+}
 const mapDispatchToProps = (dispatch) => {
   return {
-    onFilter: (filter) => dispatch(filterDogs(filter))
+    onFilter: (filterData) => dispatch(filterDogs(filterData))
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Searcher)
-
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(Searcher)
